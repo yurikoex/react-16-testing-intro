@@ -1,0 +1,29 @@
+{
+        "name": "react-testing",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+                "test": "jest src --coverage",
+                "watch": "npm test -- --watch"
+        },
+        "author": "",
+        "license": "ISC",
+        "devDependencies": {
+                "babel-jest": "^21.2.0",
+                "babel-plugin-transform-async-generator-functions": "^6.24.1",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-plugin-transform-react-jsx": "^6.24.1",
+                "babel-plugin-transform-regenerator": "^6.26.0",
+                "babel-preset-env": "^1.6.0",
+                "jest": "^21.2.1",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "regenerator-runtime": "^0.11.0"
+        },
+        "jest": {
+                "transform": {
+                        "^.+\\.js?$": "babel-jest"
+                }
+        }
+}
