@@ -1,1 +1,2 @@
-"# react-16-testing-intro" 
+`npm i`
+`npm run watch`
